@@ -118,6 +118,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 40px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .statistics-status > div > p {
@@ -185,6 +186,7 @@ body {
 .reviewer > div > p {
   margin-top: 4px;
   color: #757575;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .focus {
@@ -272,10 +274,52 @@ textarea {
 }
 
 textarea {
-    padding: 15px;
+  padding: 15px;
 }
 
 label {
-    color: #000000;
-    font-weight: 600;
+  color: #000000;
+  font-weight: 600;
+}
+
+.submit-button {
+  background-color: #4e47ff;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    padding: 70px 300px;
+    text-align: center;
+}
+
+.footer > h1 {
+    color: #4E47FF;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.footer > p {
+    color: #8987A1;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+.footer > div > a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #3b3b3b;
 }
