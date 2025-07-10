@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .logo {
@@ -89,10 +89,10 @@ body {
 }
 
 .statistics > h2 {
-    font-size: 38px;
-    font-weight: bold;
-    color : #252432;
-    margin-bottom: 12px;
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 12px;
 }
 
 .statistics-status {
@@ -100,7 +100,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 130px;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .statistics-status > div > h1 {
@@ -113,6 +113,67 @@ body {
 
 .statistics-status > div > p {
   font-size: 20px;
-  color: #00000060;  
-  margin: 0; 
+  color: #00000060;
+  margin: 0;
+}
+
+.review {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.review-title {
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-container {
+  display: flex;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: #ffffff;
+  border: 2px solid #f2eded;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.review-card > h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.review-card > p {
+  color: #1e1e1e;
+  font-size: 16px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1px;
+}
+
+.reviewer-photo {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.reviewer > div > h4 {
+  margin-bottom: 0px;
+  color: #757575;
+}
+
+.reviewer > div > p {
+  margin-top: 4px;
+  color: #757575;
 }
